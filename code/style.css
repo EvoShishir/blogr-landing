@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: "outfit";
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+nav {
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 42px;
+  color: white;
+}
+
+.hero-container {
+  background: url("/images/bg-pattern-intro-desktop.svg") center/cover no-repeat,
+    linear-gradient(90deg, rgba(254, 134, 110, 1) 0%, rgba(255, 92, 97, 1) 100%);
+  background-blend-mode: overlay;
+  background-position: right;
+  height: 100vh;
+  border-bottom-left-radius: 100px;
+  text-align: center;
+}
+
+.hero-section {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.hero-items {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-items h1,
+.hero-items p {
+  color: white;
+}
+
+.hero-items h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.hero-items p {
+  font-size: 20px;
+}
+
+.hero-bg {
+  position: relative;
+  width: 40%;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-primary {
+  background-color: white;
+  color: #e04452;
+  transition: 400ms ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: white;
+  transition: 400ms ease-in-out;
+}
+
+.button-secondary:hover {
+  background-color: white;
+  color: #e04452;
+}
+
+.section-even-container {
+  margin-top: 100px;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 42px;
+}
+
+.section-p {
+  color: rgb(130, 130, 130);
+}
+
+.section-even {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.section-even img {
+  width: 40%;
+}
+
+.section-mobile {
+  background-color: #303145;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-image: url("/images/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.section-mobile h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.section-mobile p {
+  color: lightgray;
+}
+
+footer {
+  background-color: #24242c;
+  border-top-right-radius: 100px;
+}
+
+footer h1 {
+  font-size: 42px;
+  color: white;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer p {
+  color: lightgray;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 100px 0px;
+  line-height: 50px;
+}

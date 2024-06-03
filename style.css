@@ -36,7 +36,7 @@ nav a {
 }
 
 .hero-container {
-  background: url("/images/bg-pattern-intro-desktop.svg") center/cover no-repeat,
+  background: url("/assets/bg-pattern-intro-desktop.svg") center/cover no-repeat,
     linear-gradient(90deg, rgba(254, 134, 110, 1) 0%, rgba(255, 92, 97, 1) 100%);
   background-blend-mode: overlay;
   background-position: right;
@@ -136,7 +136,7 @@ button {
   background-color: #303145;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
-  background-image: url("/images/bg-pattern-circles.svg");
+  background-image: url("/assets/bg-pattern-circles.svg");
   background-repeat: no-repeat;
   background-position: left;
 }
